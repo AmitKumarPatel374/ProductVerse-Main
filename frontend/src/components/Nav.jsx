@@ -23,8 +23,8 @@ const Nav = ({ setQuery, query }) => {
       {/* Logo (top-left) */}
       <div className="fixed top-0 left-0 z-50 h-[60px] flex items-center px-4 bg-gray-800 w-full md:w-auto">
         <h1 className="text-white font-bold text-xl border p-1 rounded-lg 
-                 hover:text-gray-800 hover:bg-white 
-                 transition-colors duration-300 ease-in-out">
+                hover:text-gray-800 hover:bg-white 
+                 transition-colors duration-300 ease-in-out ">
           ProductVerse
         </h1>
       </div>
