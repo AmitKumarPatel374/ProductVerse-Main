@@ -91,7 +91,7 @@ const Cart = () => {
               </div>
               <button
                 onClick={() => cartDeleteHandler(i)}
-                className="text-red-500 text-3xl"
+                className="text-red-500 text-3xl cursor-pointer"
               >
                 <MdDelete />
               </button>

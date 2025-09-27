@@ -44,7 +44,7 @@ const WatchList = () => {
 
             <button
               onClick={() => watchListDeleteHandler(i)}
-              className="text-3xl text-red-500 hover:scale-110 transition"
+              className="text-3xl text-red-500 hover:scale-110 transition cursor-pointer"
             >
               <MdDelete />
             </button>
