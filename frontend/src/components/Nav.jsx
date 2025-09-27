@@ -22,8 +22,13 @@ const Nav = ({ setQuery, query }) => {
     <div>
       {/* Logo (top-left) */}
       <div className="fixed top-0 left-0 z-50 h-[60px] flex items-center px-4 bg-gray-800 w-full md:w-auto">
-        <h1 className="text-white font-bold text-xl border p-1 rounded-lg">ProductVerse</h1>
+        <h1 className="text-white font-bold text-xl border p-1 rounded-lg 
+                 hover:text-gray-800 hover:bg-white 
+                 transition-colors duration-300 ease-in-out">
+          ProductVerse
+        </h1>
       </div>
+
 
       {/* Desktop Navbar */}
       <div className="hidden md:flex justify-end items-center h-[60px] bg-gray-800 text-white pr-6 pl-[160px] fixed top-0 right-0 w-full z-40 gap-10">
@@ -49,12 +54,12 @@ const Nav = ({ setQuery, query }) => {
             <NavLink to="/create-product" className={(e) => e.isActive ? "text-yellow-300" : ""}>Create Product</NavLink>
             <NavLink to="/cart" className={(e) => e.isActive ? "text-yellow-300" : ""}>Cart</NavLink>
             <NavLink to="/watchlist" className={(e) => e.isActive ? "text-yellow-300" : ""}>WatchList</NavLink>
+            <NavLink to="/about" className={(e) => e.isActive ? "text-yellow-300" : ""}>About</NavLink>
             <NavLink to="/settings" className={(e) => e.isActive ? "text-yellow-300" : ""}>My Profile</NavLink>
           </>
         ) : (
           <NavLink to="/signin" className={(e) => e.isActive ? "text-yellow-300" : ""}>Sign In</NavLink>
         )}
-        <NavLink to="/about" className={(e) => e.isActive ? "text-yellow-300" : ""}>About</NavLink>
       </div>
 
       {/* Mobile Hamburger Button */}
@@ -68,9 +73,8 @@ const Nav = ({ setQuery, query }) => {
 
       {/* Mobile Sidebar Menu */}
       <div
-        className={`fixed text-center pt-20 top-0 right-0 w-full h-full bg-gray-900 p-8 z-50 transform transition-transform duration-300 ${
-          isopen ? "translate-x-0" : "translate-x-full"
-        } md:hidden`}
+        className={`fixed text-center pt-20 top-0 right-0 w-full h-full bg-gray-900 p-8 z-50 transform transition-transform duration-300 ${isopen ? "translate-x-0" : "translate-x-full"
+          } md:hidden`}
       >
         <h2 className="text-3xl font-bold mb-12 text-white">Menu</h2>
 
@@ -98,12 +102,12 @@ const Nav = ({ setQuery, query }) => {
               <NavLink onClick={toggleMenu} to="/create-product" className="hover:text-yellow-400">Create Product</NavLink>
               <NavLink onClick={toggleMenu} to="/cart" className="hover:text-yellow-400">Cart</NavLink>
               <NavLink onClick={toggleMenu} to="/watchlist" className="hover:text-yellow-400">WatchList</NavLink>
+              <NavLink onClick={toggleMenu} to="/about" className="hover:text-yellow-400">About</NavLink>
               <NavLink onClick={toggleMenu} to="/settings" className="hover:text-yellow-400">My Profile</NavLink>
             </>
-          ) : ( 
+          ) : (
             <NavLink onClick={toggleMenu} to="/signin" className="hover:text-yellow-400">Sign In</NavLink>
           )}
-          <NavLink onClick={toggleMenu} to="/about" className="hover:text-yellow-400">About</NavLink>
         </nav>
       </div>
     </div>
