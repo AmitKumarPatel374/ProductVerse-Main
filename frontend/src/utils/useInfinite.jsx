@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { loadlazyproducts } from "../store/reducers/ProductSlice";
+import { loadlazyproducts, loadproducts } from "../store/reducers/ProductSlice";
 import axios from "../api/Config";
 
 const useInfinite = () => {
@@ -40,7 +40,9 @@ const useInfinite = () => {
   };
 
   useEffect(() => {
-    asyncsmartloadproduct(); // initial fetch
+    dispatch(loadproducts([])); // clear old products
+    startRef.current = 0;       // reset start index
+    asyncsmartloadproduct();
   }, []);
 
   return { products, hasMore, asyncsmartloadproduct };
