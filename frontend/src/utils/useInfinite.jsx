@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loadlazyproducts } from "../store/reducers/ProductSlice";
 import axios from "../api/Config";
@@ -6,28 +6,41 @@ import axios from "../api/Config";
 const useInfinite = () => {
   const { products } = useSelector((state) => state.productReducer);
   const dispatch = useDispatch();
-  const [hasMore, sethasMore] = useState(true);
 
-  const asyncsmartloadproduct = async (limit = 8, start = products.length) => {
+  const [hasMore, setHasMore] = useState(true);
+  const loadingRef = useRef(false);
+  const startRef = useRef(0); // keeps track of current start index
+
+  const LIMIT = 8;
+
+  const asyncsmartloadproduct = async () => {
+    if (loadingRef.current || !hasMore) return;
+
+    loadingRef.current = true;
+
     try {
       const { data } = await axios.get(
-        `/products?_limit=${limit}&_start=${start}`
+        `/products?_limit=${LIMIT}&_start=${startRef.current}`
       );
 
       if (data.length === 0) {
-        sethasMore(false);
-        console.log("All Products Fetched");
+        setHasMore(false);
+        console.log("✅ All products fetched");
       } else {
         dispatch(loadlazyproducts(data));
-        console.log("Products Fetched!");
+        startRef.current += LIMIT;
+        console.log("✅ Fetched new products!");
       }
-    } catch (error) {
-      console.log(error);
+    } catch (err) {
+      console.error("Error loading products:", err);
+      setHasMore(false);
+    } finally {
+      loadingRef.current = false;
     }
   };
 
   useEffect(() => {
-    asyncsmartloadproduct();
+    asyncsmartloadproduct(); // initial fetch
   }, []);
 
   return { products, hasMore, asyncsmartloadproduct };

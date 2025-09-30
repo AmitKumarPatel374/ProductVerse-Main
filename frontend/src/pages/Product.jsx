@@ -1,42 +1,39 @@
-import { useDispatch, useSelector } from 'react-redux'
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense } from 'react';
 const ProductTemplate = lazy(() => import('../components/ProductTemplate'));
 import InfiniteScroll from "react-infinite-scroll-component";
-import axios from 'axios';
-import { loadlazyproducts } from '../store/reducers/ProductSlice';
 import useInfinite from '../utils/useInfinite';
-// import { asyncloadpoducts } from '../store/Actions/ProductActions';
 
-const Product = ({query, setQuery}) => {
-  const dispatch = useDispatch();
-
+const Product = ({ query }) => {
   const { products, hasMore, asyncsmartloadproduct } = useInfinite();
 
   return (
-    <InfiniteScroll
-      dataLength={products.length}
-      next={asyncsmartloadproduct}
-      hasMore={hasMore}
-      loader={<h4>Loading...</h4>}
-      endMessage={
-        <p style={{ textAlign: "center" }}>
-          <b>Yay! You have seen it all</b>
-        </p>
-      }
-    >
-      <div className="flex flex-wrap gap-2 justify-around mt-10 w-full">
-        {products.filter((product) =>
-          product.title.toLowerCase().includes(query)
-        )
-          .map((p) => (
-            <Suspense key={p.id} fallback="Loading......">
-              <ProductTemplate p={p} />
-            </Suspense>
-          ))}
-      </div>
-    </InfiniteScroll>
-  )
+    <div id="scrollableDiv" className="h-[calc(100vh-60px)] overflow-y-auto">
+      <InfiniteScroll
+        dataLength={products.length}
+        next={asyncsmartloadproduct}
+        hasMore={hasMore}
+        loader={<h4 className="text-center my-4">Loading...</h4>}
+        endMessage={
+          <p className="text-center my-4">
+            <b>Yay! You have seen it all</b>
+          </p>
+        }
+        scrollableTarget="scrollableDiv"
+      >
+        <div className="flex flex-wrap gap-4 justify-around mt-10 w-full px-4">
+          {products
+            .filter((product) =>
+              product.title.toLowerCase().includes(query.toLowerCase())
+            )
+            .map((p) => (
+              <Suspense key={p.id} fallback={<div>Loading...</div>}>
+                <ProductTemplate p={p} />
+              </Suspense>
+            ))}
+        </div>
+      </InfiniteScroll>
+    </div>
+  );
+};
 
-}
-
-export default Product
+export default Product;

@@ -159,7 +159,167 @@
       "price": "522",
       "category": "Officia neque iusto ",
       "description": "Cillum qui tempore "
-    }
+    },
+      {
+    "id": "1fbd2e13-5c10-4b45-8e3a-5c7b25675f30",
+    "title": "Wireless Headphones #1",
+    "price": 149.99,
+    "description": "High-quality and durable for everyday use.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+  },
+  {
+    "id": "c93b0873-34f3-43f1-8f46-4ae5599392cc",
+    "title": "Smart LED TV #2",
+    "price": 499.49,
+    "description": "Offers unmatched performance and great value.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+  },
+  {
+    "id": "a8328c55-b25e-4e9e-a789-8d42b4c34b1e",
+    "title": "Bluetooth Speaker #3",
+    "price": 59.99,
+    "description": "Engineered to provide the best experience.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+  },
+  {
+    "id": "942e25d2-09e7-4f19-b104-d498493891f1",
+    "title": "Running Shoes #4",
+    "price": 89.95,
+    "description": "Lightweight, stylish, and perfect for any occasion.",
+    "category": "men's clothing",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+  },
+  {
+    "id": "c9fae72f-9c61-46a5-b1b3-2d0559fcf222",
+    "title": "Digital Camera #5",
+    "price": 299.99,
+    "description": "Tested for quality and comfort.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+  },
+  {
+    "id": "a95c2550-dadb-423b-b518-e6a72fc1ad7e",
+    "title": "Laptop Backpack #6",
+    "price": 49.99,
+    "description": "Designed to suit your style and functionality.",
+    "category": "accessories",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+  },
+  {
+    "id": "d1c1c770-7c65-4c19-98eb-7b45721e1c28",
+    "title": "Wireless Mouse #7",
+    "price": 25.49,
+    "description": "A must-have item for modern lifestyles.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+  },
+  {
+    "id": "84aa1c2e-4194-4bd9-906a-5c7f7d31c6e1",
+    "title": "Gaming Keyboard #8",
+    "price": 65.00,
+    "description": "Crafted with premium materials to ensure longevity.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+  },
+  {
+    "id": "fb15aef3-0075-4aef-9ef2-15aa59c05552",
+    "title": "Noise Cancelling Earbuds #9",
+    "price": 89.00,
+    "description": "High-quality and durable for everyday use.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+  },
+  {
+    "id": "e97eb6e7-0e65-4269-967e-881de048124e",
+    "title": "Portable Charger #10",
+    "price": 34.75,
+    "description": "Engineered to provide the best experience.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+  },
+  {
+    "id": "b2fae7a3-1353-4f46-970a-1586d0b7e2c3",
+    "title": "Fitness Tracker #11",
+    "price": 58.99,
+    "description": "Offers unmatched performance and great value.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+  },
+  {
+    "id": "e8545025-01d5-4a70-80b0-27f4a4c6212e",
+    "title": "Smart Watch #12",
+    "price": 199.00,
+    "description": "Best in class. Trusted by professionals.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+  },
+  {
+    "id": "bb29ea44-b2ae-4749-9b7d-fcc72a5a65e3",
+    "title": "Electric Toothbrush #13",
+    "price": 45.95,
+    "description": "Crafted with premium materials to ensure longevity.",
+    "category": "accessories",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+  },
+  {
+    "id": "9b6e0e97-f7f4-4c02-8b94-d67659d6e703",
+    "title": "Robot Vacuum #14",
+    "price": 329.99,
+    "description": "A must-have item for modern lifestyles.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+  },
+  {
+    "id": "c49fa5ee-d56a-47f1-b3a0-3df83fda402c",
+    "title": "Smartphone #15",
+    "price": 849.00,
+    "description": "High-quality and durable for everyday use.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+  },
+  {
+    "id": "a2d72892-23ec-48cf-86e4-d3f49c5c25aa",
+    "title": "Tablet #16",
+    "price": 399.99,
+    "description": "Lightweight, stylish, and perfect for any occasion.",
+    "category": "electronics",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+  },
+  {
+    "id": "7f8c3029-f9b6-47f9-b1b6-3fe4ad63b292",
+    "title": "Desk Lamp #17",
+    "price": 29.99,
+    "description": "Designed to suit your style and functionality.",
+    "category": "accessories",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+  },
+  {
+    "id": "5b26a4f5-26c2-401b-9122-c10b1b3b81a7",
+    "title": "Sunglasses #18",
+    "price": 19.99,
+    "description": "Ergonomically designed with the latest technology.",
+    "category": "accessories",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+  },
+  {
+    "id": "70c2290e-cf45-4e94-a313-bc2afdfbd6c6",
+    "title": "Sneakers #19",
+    "price": 74.49,
+    "description": "Crafted with premium materials to ensure longevity.",
+    "category": "men's clothing",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+  },
+  {
+    "id": "6a6c44eb-1fe3-47c3-8106-8f498a45791f",
+    "title": "Casual T-Shirt #20",
+    "price": 15.00,
+    "description": "Best in class. Trusted by professionals.",
+    "category": "women's clothing",
+    "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+  }
   ],
   "users": [
     {
