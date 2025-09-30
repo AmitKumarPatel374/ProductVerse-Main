@@ -74,7 +74,7 @@ const Settings = () => {
     return (
         <div className="min-h-[93vh] px-4 py-10 flex flex-col items-center bg-white">
             <button
-                className="flex items-center absolute top-[8%] left-[1%] font-bold cursor-pointer"
+                className="flex items-center absolute top-[8%] left-[1%] mt-6 font-bold cursor-pointer"
                 onClick={() => nevigate(-1)}
             >
                 <IoMdArrowRoundBack />

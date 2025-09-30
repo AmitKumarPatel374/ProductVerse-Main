@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useLayoutEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router';
 import { FaSearch } from "react-icons/fa";
+import gsap from 'gsap';
 
 const Nav = ({ setQuery, query }) => {
   const [isopen, setIsOpen] = useState(false);
@@ -9,29 +10,73 @@ const Nav = ({ setQuery, query }) => {
   const { user } = useSelector((state) => state.userReducer);
   const navigate = useNavigate();
 
-  // 📌 Handle search submission
+  // Refs for GSAP
+  const logoRef = useRef();
+  const desktopNavRef = useRef();
+  const mobileMenuRef = useRef();
+
+  // Animate logo and desktop nav items on mount
+  useLayoutEffect(() => {
+    gsap.from(logoRef.current, {
+      x: -30,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+    });
+
+    gsap.from(desktopNavRef.current?.children, {
+      opacity: 0,
+      y: -10,
+      duration: 0.5,
+      stagger: 0.1,
+      delay: 0.2,
+      ease: "power2.out",
+    });
+  }, []);
+
+  // Animate mobile menu when opened
+  useLayoutEffect(() => {
+    if (isopen) {
+      gsap.fromTo(
+        mobileMenuRef.current,
+        { x: '100%' },
+        { x: '0%', duration: 0.4, ease: 'power2.out' }
+      );
+    } else {
+      gsap.to(mobileMenuRef.current, {
+        x: '100%',
+        duration: 0.3,
+        ease: 'power2.in',
+      });
+    }
+  }, [isopen]);
+
+  // Handle search submit
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (query.trim() !== "") {
       navigate('/');
-      setIsOpen(false); // Close mobile menu if open
+      setIsOpen(false);
     }
   };
 
   return (
     <div>
-      {/* Logo (top-left) */}
-      <div className="fixed top-0 left-0 z-50 h-[60px] flex items-center px-4 bg-gray-800 w-full md:w-auto">
-        <h1 className="text-white font-bold text-xl border p-1 rounded-lg 
-                hover:text-gray-800 hover:bg-white 
-                 transition-colors duration-300 ease-in-out ">
+      {/* Logo */}
+      <div className="fixed top-0 left-0 z-50 h-[60px] flex items-center px-4 bg-gray-800 w-full md:w-auto mt-">
+        <h1
+          ref={logoRef}
+          className="text-white font-bold text-xl border p-1 rounded-lg hover:text-gray-800 hover:bg-white transition-colors duration-300 ease-in-out"
+        >
           ProductVerse
         </h1>
       </div>
 
-
       {/* Desktop Navbar */}
-      <div className="hidden md:flex justify-end items-center h-[60px] bg-gray-800 text-white pr-6 pl-[160px] fixed top-0 right-0 w-full z-40 gap-10">
+      <div
+        ref={desktopNavRef}
+        className="hidden md:flex justify-end items-center h-[80px] bg-gray-800 text-white pr-6 pl-[160px] fixed top-0 right-0 w-full z-40 gap-5"
+      >
         <form onSubmit={handleSearchSubmit} className="relative">
           <input
             type="text"
@@ -73,12 +118,11 @@ const Nav = ({ setQuery, query }) => {
 
       {/* Mobile Sidebar Menu */}
       <div
-        className={`fixed text-center pt-20 top-0 right-0 w-full h-full bg-gray-900 p-8 z-50 transform transition-transform duration-300 ${isopen ? "translate-x-0" : "translate-x-full"
-          } md:hidden`}
+        ref={mobileMenuRef}
+        className="fixed text-center pt-20 top-0 right-0 w-full h-full bg-gray-900 p-8 z-50 transform translate-x-full transition-transform duration-300 md:hidden"
       >
         <h2 className="text-3xl font-bold mb-12 text-white">Menu</h2>
 
-        {/* ✅ Mobile Search Form with submit handler */}
         <form onSubmit={handleSearchSubmit} className="mb-8">
           <input
             type="text"

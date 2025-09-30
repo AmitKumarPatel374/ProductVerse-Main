@@ -3,11 +3,25 @@ import { asyncupdateuser } from "../../store/Actions/UserActions";
 import { MdDelete } from "react-icons/md";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { useNavigate } from "react-router";
+import { useLayoutEffect, useRef } from "react";
+import gsap from "gsap";
 
 const Cart = () => {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.userReducer);
   const navigate = useNavigate();
+  const cartRef = useRef([]);
+
+  // Animate cart items on mount
+  useLayoutEffect(() => {
+    gsap.from(cartRef.current, {
+      opacity: 0,
+      y: 30,
+      duration: 0.6,
+      stagger: 0.1,
+      ease: "power2.out",
+    });
+  }, [user.cart.length]); // Trigger animation when cart length changes
 
   const IncreaseQuantity = (index) => {
     const copyuser = { ...user, cart: [...user.cart] };
@@ -60,6 +74,7 @@ const Cart = () => {
         {user.cart.map((ci, i) => (
           <div
             key={i}
+            ref={(el) => (cartRef.current[i] = el)}
             className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8 bg-gray-100 p-4 rounded-lg shadow-md"
           >
             <img
