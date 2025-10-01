@@ -145,180 +145,164 @@
       "image": "https://m.media-amazon.com/images/I/71S4U74FgzL._SX385_.jpg"
     },
     {
-      "id": "2u1LhhKLadiL2PEAaUTwF",
-      "image": "Molestiae non archit",
-      "title": "Minus ex eos quia re",
-      "price": "842",
-      "category": "Enim pariatur Neces",
-      "description": "Reprehenderit aliqu"
-    },
-    {
-      "id": "ciM2tBtZn8mMwnWRRGNCX",
-      "image": "Maxime earum pariatu",
-      "title": "Ea Nam eveniet duis",
-      "price": "522",
-      "category": "Officia neque iusto ",
-      "description": "Cillum qui tempore "
-    },
-    {
       "id": "1fbd2e13-5c10-4b45-8e3a-5c7b25675f30",
-      "title": "Wireless Headphones #1",
+      "title": "Wireless Headphones",
       "price": 149.99,
       "description": "High-quality and durable for everyday use.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+      "image": "https://m.media-amazon.com/images/I/51UhwaQXCpL._UF1000,1000_QL80_.jpg"
     },
     {
       "id": "c93b0873-34f3-43f1-8f46-4ae5599392cc",
-      "title": "Smart LED TV #2",
+      "title": "Smart LED TV",
       "price": 499.49,
       "description": "Offers unmatched performance and great value.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+      "image": "https://m.media-amazon.com/images/I/51lYbJhOmbL._UF1000,1000_QL80_.jpg"
     },
     {
       "id": "a8328c55-b25e-4e9e-a789-8d42b4c34b1e",
-      "title": "Bluetooth Speaker #3",
+      "title": "Bluetooth Speaker",
       "price": 59.99,
       "description": "Engineered to provide the best experience.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzm330_QXVLpQJnT6jKW3ixSYYI9Vka9t6Q&s"
     },
     {
       "id": "942e25d2-09e7-4f19-b104-d498493891f1",
-      "title": "Running Shoes #4",
+      "title": "Running Shoes",
       "price": 89.95,
       "description": "Lightweight, stylish, and perfect for any occasion.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+      "image": "https://bersache.com/cdn/shop/files/WhatsAppImage2024-05-08at13.24.46.jpg?v=1754653833&width=1080"
     },
     {
       "id": "c9fae72f-9c61-46a5-b1b3-2d0559fcf222",
-      "title": "Digital Camera #5",
+      "title": "Digital Camera",
       "price": 299.99,
       "description": "Tested for quality and comfort.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+      "image": "https://image.similarpng.com/file/similarpng/very-thumbnail/2020/05/Realistic-digital-camera-vector-PNG.png"
     },
     {
       "id": "a95c2550-dadb-423b-b518-e6a72fc1ad7e",
-      "title": "Laptop Backpack #6",
+      "title": "Laptop Backpack",
       "price": 49.99,
       "description": "Designed to suit your style and functionality.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+      "image": "https://www.vhv.rs/dpng/d/366-3665466_backpack-laptop-bags-hd-png-download.png"
     },
     {
       "id": "d1c1c770-7c65-4c19-98eb-7b45721e1c28",
-      "title": "Wireless Mouse #7",
+      "title": "Wireless Mouse",
       "price": 25.49,
       "description": "A must-have item for modern lifestyles.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/wireless-mouse-computer-PxZVkL4-600.jpg"
     },
     {
       "id": "84aa1c2e-4194-4bd9-906a-5c7f7d31c6e1",
-      "title": "Gaming Keyboard #8",
+      "title": "Gaming Keyboard",
       "price": 65.00,
       "description": "Crafted with premium materials to ensure longevity.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+      "image": "https://www.vhv.rs/dpng/d/465-4653936_ibuypower-rgb-gaming-keyboard-hd-png-download.png"
     },
     {
       "id": "fb15aef3-0075-4aef-9ef2-15aa59c05552",
-      "title": "Noise Cancelling Earbuds #9",
+      "title": "Noise Cancelling Earbuds",
       "price": 89.00,
       "description": "High-quality and durable for everyday use.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+      "image": "https://www.gonoise.com/cdn/shop/files/1_98196dd8-2752-480e-94c7-6b60981629c1_grande.png?v=1694430243"
     },
     {
       "id": "e97eb6e7-0e65-4269-967e-881de048124e",
-      "title": "Portable Charger #10",
+      "title": "Portable Charger",
       "price": 34.75,
       "description": "Engineered to provide the best experience.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+      "image": "https://static.vecteezy.com/system/resources/previews/050/779/131/non_2x/stylish-power-bank-with-dual-usb-ports-isolated-on-transparent-background-png.png"
     },
     {
       "id": "b2fae7a3-1353-4f46-970a-1586d0b7e2c3",
-      "title": "Fitness Tracker #11",
+      "title": "Fitness Tracker",
       "price": 58.99,
       "description": "Offers unmatched performance and great value.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/fitness-tracker-orange-bracelet-BYd0MnB-600.jpg"
     },
     {
       "id": "e8545025-01d5-4a70-80b0-27f4a4c6212e",
-      "title": "Smart Watch #12",
+      "title": "Smart Watch",
       "price": 199.00,
       "description": "Best in class. Trusted by professionals.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+      "image": "https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-the-smartwatch-banner-png-image_11919210.png"
     },
     {
       "id": "bb29ea44-b2ae-4749-9b7d-fcc72a5a65e3",
-      "title": "Electric Toothbrush #13",
+      "title": "Electric Toothbrush",
       "price": 45.95,
       "description": "Crafted with premium materials to ensure longevity.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+      "image": "https://pngimg.com/d/toothbrush_PNG79.png"
     },
     {
       "id": "9b6e0e97-f7f4-4c02-8b94-d67659d6e703",
-      "title": "Robot Vacuum #14",
+      "title": "Robot Vacuum",
       "price": 329.99,
       "description": "A must-have item for modern lifestyles.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+      "image": "https://png.pngtree.com/png-vector/20240717/ourlarge/pngtree-high-tech-robotic-vacuum-cleaner-illustration-png-image_13134912.png"
     },
     {
       "id": "c49fa5ee-d56a-47f1-b3a0-3df83fda402c",
-      "title": "Smartphone #15",
+      "title": "Smartphone",
       "price": 849.00,
       "description": "High-quality and durable for everyday use.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+      "image": "https://pngimg.com/d/smartphone_PNG8519.png"
     },
     {
       "id": "a2d72892-23ec-48cf-86e4-d3f49c5c25aa",
-      "title": "Tablet #16",
+      "title": "Tablet",
       "price": 399.99,
       "description": "Lightweight, stylish, and perfect for any occasion.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+1"
+      "image": "https://www.freeiconspng.com/uploads/android-tablet-png-30.png"
     },
     {
       "id": "7f8c3029-f9b6-47f9-b1b6-3fe4ad63b292",
-      "title": "Desk Lamp #17",
+      "title": "Desk Lamp",
       "price": 29.99,
       "description": "Designed to suit your style and functionality.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+2"
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/desk-lamp-8J59Qd9-600.jpg"
     },
     {
       "id": "5b26a4f5-26c2-401b-9122-c10b1b3b81a7",
-      "title": "Sunglasses #18",
+      "title": "Sunglasses",
       "price": 19.99,
       "description": "Ergonomically designed with the latest technology.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+3"
+      "image": "https://gallery.yopriceville.com/downloadfullsize/send/11036"
     },
     {
       "id": "70c2290e-cf45-4e94-a313-bc2afdfbd6c6",
-      "title": "Sneakers #19",
+      "title": "Sneakers",
       "price": 74.49,
       "description": "Crafted with premium materials to ensure longevity.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+4"
+      "image": "https://www.vhv.rs/dpng/d/471-4719600_orange-sneaker-png-png-download-air-jordan-5.png"
     },
     {
       "id": "6a6c44eb-1fe3-47c3-8106-8f498a45791f",
-      "title": "Casual T-Shirt #20",
+      "title": "Casual T-Shirt",
       "price": 15.00,
       "description": "Best in class. Trusted by professionals.",
       "category": "women's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Product+Image+5"
+      "image": "https://img.favpng.com/23/13/18/yellow-tshirt-casual-yellow-t-shirt-wP0RctFR_t.jpg"
     },
     {
       "id": "p21",
@@ -326,7 +310,7 @@
       "price": 14.99,
       "description": "Classic cotton t-shirt with a soft feel and modern fit.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=T-Shirt"
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-blank-t-shirt-pink-crew-neck-short-sleeve-for-kids-png-image_9193432.png"
     },
     {
       "id": "p22",
@@ -334,7 +318,7 @@
       "price": 34.95,
       "description": "Handcrafted wallet with RFID blocking for added security.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Wallet"
+      "image": "https://png.pngtree.com/png-vector/20250103/ourlarge/pngtree-leather-wallet-with-a-vintage-style-and-elegant-floral-embossing-png-image_15026892.png"
     },
     {
       "id": "p23",
@@ -342,7 +326,7 @@
       "price": 22.99,
       "description": "Non-slip yoga mat with eco-friendly materials and carry strap.",
       "category": "fitness",
-      "image": "https://via.placeholder.com/300.png?text=Yoga+Mat"
+      "image": "https://www.nicepng.com/png/detail/211-2110664_yoga-mat-exercise-mat.png"
     },
     {
       "id": "p24",
@@ -350,7 +334,7 @@
       "price": 12.50,
       "description": "Soft, thick-knit beanie for cold-weather comfort.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Beanie"
+      "image": "https://static.vecteezy.com/system/resources/previews/039/631/005/non_2x/ai-generated-red-knitted-winter-cap-isolated-on-transparent-background-free-png.png"
     },
     {
       "id": "p25",
@@ -358,7 +342,7 @@
       "price": 18.75,
       "description": "Fast-charging wireless pad compatible with all Qi devices.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Wireless+Charger"
+      "image": "https://png.pngtree.com/png-clipart/20240908/original/pngtree-magnetic-wireless-charger-isolated-on-transparent-background-png-image_15967505.png"
     },
     {
       "id": "p26",
@@ -366,7 +350,7 @@
       "price": 49.99,
       "description": "Spacious and water-resistant, perfect for weekend trips.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Duffel+Bag"
+      "image": "https://www.pngplay.com/wp-content/uploads/6/Travel-Duffel-Bag-PNG-HD-Quality.png"
     },
     {
       "id": "p27",
@@ -374,7 +358,7 @@
       "price": 15.99,
       "description": "Play music and answer calls in your car with ease.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Car+Adapter"
+      "image": "https://eu.ugreen.com/cdn/shop/files/ugreen-car-bluetooth-adapter-bluetooth-fm-transmitter-for-car-pdqc-30-car-charger-967457.png?v=1742003025"
     },
     {
       "id": "p28",
@@ -382,7 +366,7 @@
       "price": 65.00,
       "description": "Timeless style made with premium quality denim.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Denim+Jacket"
+      "image": "https://www.pngfind.com/pngs/m/214-2148629_jeans-jacket-png-image-jeans-jacket-png-transparent.png"
     },
     {
       "id": "p29",
@@ -390,7 +374,7 @@
       "price": 25.00,
       "description": "Lightweight and breathable for optimal performance.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Shorts"
+      "image": "https://png.pngtree.com/png-vector/20240722/ourmid/pngtree-low-rise-elastic-waist-men-shorts-png-image_13110030.png"
     },
     {
       "id": "p30",
@@ -398,7 +382,7 @@
       "price": 10.00,
       "description": "Simple, sturdy mug for your favorite hot beverages.",
       "category": "home",
-      "image": "https://via.placeholder.com/300.png?text=Coffee+Mug"
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/ceramic-mug-coffee-cup-5ANOd88-600.jpg"
     },
     {
       "id": "p31",
@@ -406,7 +390,7 @@
       "price": 19.99,
       "description": "Double-walled insulation to keep drinks hot or cold.",
       "category": "fitness",
-      "image": "https://via.placeholder.com/300.png?text=Water+Bottle"
+      "image": "https://png.pngtree.com/png-vector/20240727/ourmid/pngtree-stainless-steel-water-bottle-png-image_13223174.png"
     },
     {
       "id": "p32",
@@ -414,7 +398,7 @@
       "price": 27.99,
       "description": "Adjustable brightness and color temperature for eye comfort.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Desk+Lamp"
+      "image": "https://static.vecteezy.com/system/resources/previews/029/284/559/non_2x/office-table-lamp-isolated-png.png"
     },
     {
       "id": "p33",
@@ -422,7 +406,7 @@
       "price": 29.99,
       "description": "Soft, stretchy leggings perfect for workouts or lounging.",
       "category": "women's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Leggings"
+      "image": "https://pngimg.com/d/leggings_PNG50.png"
     },
     {
       "id": "p34",
@@ -430,7 +414,7 @@
       "price": 59.95,
       "description": "Clear sound and comfortable fit with long battery life.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Earbuds"
+      "image": "https://m.media-amazon.com/images/I/51ryWKJ4YML._UF1000,1000_QL80_.jpg"
     },
     {
       "id": "p35",
@@ -438,7 +422,7 @@
       "price": 17.49,
       "description": "Extended mousepad with anti-slip base and smooth surface.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Mousepad"
+      "image": "https://png.pngtree.com/png-vector/20240626/ourmid/pngtree-extended-mouse-mat-gaming-desk-pad-png-image_12783896.png"
     },
     {
       "id": "p36",
@@ -446,7 +430,7 @@
       "price": 74.99,
       "description": "Durable and waterproof with multiple compartments.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Backpack"
+      "image": "https://zajo.bwcdn.net/media/2025/09/3/2/eksploro-35l-hiking-backpack-328385-size-large-v-2.png"
     },
     {
       "id": "p37",
@@ -454,7 +438,7 @@
       "price": 89.00,
       "description": "Adjustable weight settings to match your fitness goals.",
       "category": "fitness",
-      "image": "https://via.placeholder.com/300.png?text=Dumbbells"
+      "image": "https://www.vhv.rs/dpng/d/415-4156047_dumbbell-png-transparent-background-adjustable-dumbbell-set-png.png"
     },
     {
       "id": "p38",
@@ -462,7 +446,7 @@
       "price": 29.99,
       "description": "Bright LED wall clock with a modern look.",
       "category": "home",
-      "image": "https://via.placeholder.com/300.png?text=Wall+Clock"
+      "image": "https://www.pngfind.com/pngs/m/60-605845_neon-wall-clock-hd-png-download.png"
     },
     {
       "id": "p39",
@@ -470,7 +454,7 @@
       "price": 19.95,
       "description": "Comfortable, breathable cotton fabric with a snug fit.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Boxers"
+      "image": "https://cdn11.bigcommerce.com/s-swa07uhx/images/stencil/1920x1920/products/1789/6702/3_pack_bwdimension_boxer__06167.1757688358.png?c=2"
     },
     {
       "id": "p40",
@@ -478,7 +462,7 @@
       "price": 24.50,
       "description": "Gently exfoliates and deep cleans pores.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Brush"
+      "image": "https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-flat-facial-cleansing-brush-with-soft-bristles-png-image_16223251.png"
     },
     {
       "id": "p41",
@@ -486,7 +470,7 @@
       "price": 33.00,
       "description": "Includes 6 essential oils for relaxation and energy.",
       "category": "home",
-      "image": "https://via.placeholder.com/300.png?text=Oils"
+      "image": "https://png.pngtree.com/png-clipart/20240326/original/pngtree-essential-oils-in-glass-bottles-png-image_14685692.png"
     },
     {
       "id": "p42",
@@ -494,7 +478,7 @@
       "price": 39.99,
       "description": "Ionic technology for faster drying and less frizz.",
       "category": "accessories",
-      "image": "https://via.placeholder.com/300.png?text=Hair+Dryer"
+      "image": "https://images.philips.com/is/image/philipsconsumer/9df9eb483cd24d4caa74ae7800587ff9?$pnglarge$&wid=1250"
     },
     {
       "id": "p43",
@@ -502,7 +486,7 @@
       "price": 85.00,
       "description": "Modern design perfect for work or formal occasions.",
       "category": "men's clothing",
-      "image": "https://via.placeholder.com/300.png?text=Blazer"
+      "image": "https://img.pikbest.com/origin/10/41/75/11mpIkbEsTPfV.png!w700wp"
     },
     {
       "id": "p44",
@@ -510,7 +494,7 @@
       "price": 27.50,
       "description": "Soft fleece fabric ideal for couches or beds.",
       "category": "home",
-      "image": "https://via.placeholder.com/300.png?text=Blanket"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjYV-My6ge1VMeAuoFAiXKsJGaYODhDGOYA&s"
     },
     {
       "id": "p45",
@@ -518,7 +502,7 @@
       "price": 42.75,
       "description": "Ergonomic and compatible with multiple platforms.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=Controller"
+      "image": "https://png.pngtree.com/png-clipart/20241016/original/pngtree-stylish-modern-game-controller-for-gamers-png-image_16330462.png"
     },
     {
       "id": "p46",
@@ -526,7 +510,7 @@
       "price": 23.99,
       "description": "RGB lights with remote control and adhesive backing.",
       "category": "electronics",
-      "image": "https://via.placeholder.com/300.png?text=LED+Strip"
+      "image": "https://www.futurelight.co.za/cdn/shop/products/HVS401.png?v=1750431726&width=750"
     },
     {
       "id": "p47",
@@ -534,7 +518,7 @@
       "price": 16.99,
       "description": "Keeps your office neat with compartments for supplies.",
       "category": "home",
-      "image": "https://via.placeholder.com/300.png?text=Organizer"
+      "image": "https://png.pngtree.com/png-clipart/20240921/original/pngtree-desk-organizer-on-transparent-background-png-image_16056839.png"
     }
   ],
   "users": [
